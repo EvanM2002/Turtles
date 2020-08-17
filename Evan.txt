@@ -1,0 +1,13 @@
+import turtle
+
+turtle.pensize(3)
+turtle.speed(0)
+
+for i in range(6):
+    for colors in ["Blue", "Black", "Purple", "Green", "Yellow", "Pink"]:
+      turtle.color(colors)
+      turtle.circle(140)
+      turtle.right(10)
+      turtle.circle(50)
+      turtle.right(10)
+input ('hit enter to exit')
